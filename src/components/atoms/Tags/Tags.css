@@ -1,0 +1,10 @@
+.tag {
+    display: inline-flex;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #FFD28F;
+    padding: 1rem;
+    border: .2rem solid #FFD28F;
+    border-radius: .8rem;
+    outline: invert;
+}

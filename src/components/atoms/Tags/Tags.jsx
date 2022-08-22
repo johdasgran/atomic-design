@@ -1,8 +1,9 @@
 import React from 'react'
+import './Tags.css'
 
 function Tags(props) {
   return (
-    <div>{props.text}</div>
+    <div className='tag' >{props.text}</div>
   )
 }
 
