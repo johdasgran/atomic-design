@@ -1,6 +1,7 @@
 .container-imagen {
     width: 100%;
     padding-bottom: 2rem;
+    border-radius: 1.2rem;
 }
 
 .imagen {
