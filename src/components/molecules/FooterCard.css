@@ -1,0 +1,15 @@
+.footer__card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__card-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__card-tags {
+    display: flex;
+    padding-top: 1.2rem;
+    gap: 2rem;
+}

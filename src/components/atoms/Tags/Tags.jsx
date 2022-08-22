@@ -3,7 +3,7 @@ import './Tags.css'
 
 function Tags(props) {
   return (
-    <div className='tag' >{props.text}</div>
+    <a href="#/" className='tag'>{props.text}</a>
   )
 }
 

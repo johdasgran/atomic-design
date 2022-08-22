@@ -1,10 +1,16 @@
 .tag {
-    display: inline-flex;
+    margin: 0;
     font-size: 1.6rem;
     font-weight: 600;
     color: #FFD28F;
-    padding: 1rem;
+    padding: .2rem .8rem;
     border: .2rem solid #FFD28F;
     border-radius: .8rem;
-    outline: invert;
+    text-decoration: none;
+}
+
+.tag:hover {
+    color: #FF902B;
+    border-color: #FF902B;
+    cursor: pointer;
 }
