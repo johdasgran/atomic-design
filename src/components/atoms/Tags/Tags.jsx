@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Tags(text) {
+function Tags(props) {
   return (
-    <div>{text}</div>
+    <div>{props.text}</div>
   )
 }
 

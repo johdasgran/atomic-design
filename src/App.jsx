@@ -8,7 +8,8 @@ function App() {
   return (
     <>
       <Buttons></Buttons>
-      {/* <Tags></Tags> */}
+      <Tags text="Hot"></Tags>
+      <Tags text="Leave"></Tags>
     </>  
    
   );
