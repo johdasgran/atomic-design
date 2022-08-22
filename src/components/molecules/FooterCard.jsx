@@ -6,13 +6,15 @@ import Text from '../atoms/Text/Text'
 
 
 
-function FooterCard() {
+function FooterCard(props) {
+
+
   return (
     <>
     <div className='footer__card'>
 
       <div className='footer__card-left'>
-        <Text text="Vanilla Latte" style="title-card"></Text>
+        <Text text={props.name} style="title-card"></Text>
         <div className='footer__card-tags'>
           <Tags text="Hot"></Tags>
           <Tags text="Cold"></Tags>
@@ -21,8 +23,10 @@ function FooterCard() {
       </div>
 
       <div className='footer__card-right'>
-        <Text text="21 K" style="price-card"></Text>
-        <Buttons></Buttons>
+        <Text text={props.price} style="price-card"></Text>
+        <div className='footer__card-cart'>
+          <Buttons></Buttons>
+        </div>
       </div>
 
     </div>
