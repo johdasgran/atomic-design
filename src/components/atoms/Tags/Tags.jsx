@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Tags() {
+function Tags(text) {
   return (
-    <div>Tags</div>
+    <div>{text}</div>
   )
 }
 

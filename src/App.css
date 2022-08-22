@@ -45,5 +45,38 @@
 }
 
 body {
-  background-color: #F6EBDA;
+  background-color:#F6EBDA;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  background: url('./assets/images/bg-image.png') fixed bottom no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+
+body::before,
+body::after {
+  content: "";
+  background: url('./assets/images/coffee.svg') no-repeat;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 56.9rem;
+  height: 39.4rem;
+  z-index: 3;
+}
+
+body::before {
+  left: -4rem;
+  bottom: -4rem;
+  transform: rotate(20deg);
+}
+
+body::after{
+  right: -16rem;
+  top: -8rem;
+  transform: rotate(160deg);
 }
