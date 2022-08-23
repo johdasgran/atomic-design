@@ -19,10 +19,6 @@ function Card(props) {
     price = "23 K";
   }
 
-
-
-
-
   return (
     <>
 
