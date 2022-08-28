@@ -6,17 +6,17 @@ function Tags(props) {
 
   const [stateCoffee, setStateCoffee] = useState(false)
 
-  // console.log(stateCoffee)
+  let activeTag = "tag"
+  stateCoffee ? activeTag += " tag__active" : activeTag = "tag"
 
   const updatePreferCoffee = () => {
-    setStateCoffee(true)
+    stateCoffee ? setStateCoffee(false) : setStateCoffee(true)   
     console.log("Estado ", {stateCoffee})
   }
 
-
-
+  
   return (
-    <a href="#/" onClick={updatePreferCoffee} className='tag'>{props.text}</a>
+    <a href="#/" onClick={updatePreferCoffee} className={activeTag}>{props.text}</a>
   )
 }
 

@@ -8,7 +8,6 @@ import Text from '../atoms/Text/Text'
 
 function FooterCard(props) {
 
-
   return (
     <>
     <div className='footer__card'>
@@ -16,8 +15,8 @@ function FooterCard(props) {
       <div className='footer__card-left'>
         <Text text={props.name} cardStyle="title-card"></Text>
         <div className='footer__card-tags'>
-          <Tags text="🥵 Hot"></Tags>
-          <Tags text="🥶 Cold"></Tags>
+          <Tags text="🥵 Hot" ></Tags>
+          <Tags text="🥶 Cold" ></Tags>
         </div>
 
       </div>

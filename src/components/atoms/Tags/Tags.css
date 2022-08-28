@@ -7,10 +7,15 @@
     border: .2rem solid #FFD28F;
     border-radius: .8rem;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .tag:hover {
     color: #FF902B;
     border-color: #FF902B;
-    cursor: pointer;
+}
+
+.tag__active {
+    color: #FF902B;
+    border-color: #FF902B;
 }
