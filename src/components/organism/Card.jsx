@@ -1,4 +1,3 @@
-import React from 'react'
 import './Card.css'
 import FooterCard from '../molecules/FooterCard'
 import ImageCard from '../molecules/ImageCard'
@@ -18,6 +17,10 @@ function Card(props) {
     name = "Hazelnut Latte";
     price = "23 K";
   }
+
+
+
+
 
   return (
     <>
