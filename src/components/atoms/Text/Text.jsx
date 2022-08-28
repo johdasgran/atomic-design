@@ -3,7 +3,7 @@ import './Text.css'
 
 function Text(props) {
   return (
-    <p className={props.style} >{props.text}</p>
+    <p className={props.cardStyle} >{props.text}</p>
   )
 }
 

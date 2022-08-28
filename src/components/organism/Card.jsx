@@ -19,19 +19,19 @@ function Card(props) {
   }
 
 
-
+  console.log(props)
 
 
   return (
     <>
-
-        <div className='card'>
-            <div className='card__container'>
-                <ImageCard imagen={props.type}></ImageCard>
-                <FooterCard name={name} price={price} ></FooterCard>
-            </div>
-        </div>
-    
+      <div className='card'>
+          <div className='card__container'>
+              <ImageCard imagen={props.type}></ImageCard>
+              {props.children}
+              <FooterCard name={name} price={price} ></FooterCard>
+          </div>
+      </div>
+      
     </>
   )
 }
