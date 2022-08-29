@@ -1,6 +1,6 @@
 import React from 'react'
 import './ImageCard.css'
-import coffee from '../../assets/images/card-images/coffee.png'
+import coffee from '../../assets/images/card-images/vanilla-latte.png'
 import espresso from '../../assets/images/card-images/espresso.png'
 import hanzelnut_latte from '../../assets/images/card-images/hazelnut latte.png'
 
