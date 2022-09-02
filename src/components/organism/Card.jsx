@@ -19,7 +19,7 @@ function Card(props) {
   }
 
 
-  console.log(props)
+  // console.log(props)
 
 
   return (
