@@ -10,7 +10,7 @@ function App() {
     
     <BrowserRouter>
       <Routes>
-        <Route path="/xd/" element={
+        <Route path="/cards" element={
              <main>
 
      <Card type="coffee" name="coffee"></Card>
