@@ -3,8 +3,24 @@ import './App.css';
 import Card from './components/organism/Card';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import { useEffect, useState } from 'react';
 
 function App() {
+
+
+  const [characters, setCharacters] = useState([])
+
+
+  useEffect(()=> {
+
+    fetch("https://finalspaceapi.com/api/v0/character")
+    .then(response => response.json())
+    .then(data => setCharacters(data))
+   
+  },[])
+
+  console.log(characters)
+
   return (
     <>
     
