@@ -2,11 +2,39 @@
 import './App.css';
 import Card from './components/organism/Card';
 
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+
 function App() {
   return (
     <>
     
-    <main>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/xd/" element={
+             <main>
+
+     <Card type="coffee" name="coffee"></Card>
+     <Card type="espresso" name="espresso"></Card>
+     <Card type="hanzelnut_latte" name="hanzelnut_latte"></Card>
+     <Card type="coffee" name="coffee" ></Card>
+
+     
+     <Card type="espresso" name="espresso"></Card>
+     <Card type="hanzelnut_latte" name="hanzelnut_latte"></Card>
+     <Card type="coffee" name="coffee"></Card>
+     <Card type="espresso" name="espresso"></Card>
+
+
+     </main>
+
+        } />
+      </Routes>
+    </BrowserRouter>
+
+
+
+
+    {/* <main>
 
      <Card type="coffee" name="coffee"></Card>
      <Card type="espresso" name="espresso"></Card>
@@ -24,7 +52,7 @@ function App() {
 
 
 
-     </main>
+     </main> */}
 
 
     </>  
