@@ -19,6 +19,11 @@ function App() {
    
   },[])
 
+
+
+
+
+
   console.log(characters)
 
   return (
@@ -27,20 +32,19 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/cards" element={
-             <main>
+            <main>
 
-     <Card type="coffee" name="coffee"></Card>
-     <Card type="espresso" name="espresso"></Card>
-     <Card type="hanzelnut_latte" name="hanzelnut_latte"></Card>
-     <Card type="coffee" name="coffee" ></Card>
+              <Card type="coffee" name="coffee"></Card>
+              <Card type="espresso" name="espresso"></Card>
+              <Card type="hanzelnut_latte" name="hanzelnut_latte"></Card>
+              <Card type="coffee" name="coffee" ></Card>
 
-     <Card type="espresso" name="espresso"></Card>
-     <Card type="hanzelnut_latte" name="hanzelnut_latte"></Card>
-     <Card type="coffee" name="coffee"></Card>
-     <Card type="espresso" name="espresso"></Card>
+              <Card type="espresso" name="espresso"></Card>
+              <Card type="hanzelnut_latte" name="hanzelnut_latte"></Card>
+              <Card type="coffee" name="coffee"></Card>
+              <Card type="espresso" name="espresso"></Card>
 
-
-     </main>
+            </main>
 
         } />
       </Routes>
