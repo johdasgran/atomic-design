@@ -1,11 +1,15 @@
 import React from 'react'
 
-const authContext = React.createContext()
+export const authContext = React.createContext()
+
+const numbers = [0,1,2,3,4,5,6]
 
 
 export default function AuthContext({children}) {
   return (
-    <authContext.Provider>
+    <authContext.Provider
+        value={numbers}
+    >
         {children}
     </authContext.Provider>
   )

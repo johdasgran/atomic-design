@@ -1,8 +1,17 @@
 import './Card.css'
 import FooterCard from '../molecules/FooterCard'
 import ImageCard from '../molecules/ImageCard'
+import { useContext } from 'react';
+import { authContext } from '../../context/AuthContext';
+
 
 function Card(props) {
+
+
+  const one = useContext(authContext)
+
+
+
 
   let name = "";
   let price = "";
@@ -27,6 +36,7 @@ function Card(props) {
       <div className='card'>
           <div className='card__container'>
               <ImageCard imagen={props.type}></ImageCard>
+              {console.log(one)}
               {props.children}
               <FooterCard name={name} price={price} ></FooterCard>
           </div>

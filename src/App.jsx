@@ -11,13 +11,13 @@ function App() {
   const [characters, setCharacters] = useState([])
 
 
-  useEffect(()=> {
+  // useEffect(()=> {
 
-    fetch("https://finalspaceapi.com/api/v0/character")
-    .then(response => response.json())
-    .then(data => setCharacters(data))
+  //   fetch("https://finalspaceapi.com/api/v0/character")
+  //   .then(response => response.json())
+  //   .then(data => setCharacters(data))
    
-  },[])
+  // },[])
 
 
 
